@@ -16,3 +16,21 @@ The stock count of Selin's warehouse: every product, with its number.
 2. Make a branch
 3. Commit, push, and open a pull request.
 4. Sombody else reviews it before it gets merged.
+
+
+## Who does what
+
+| Who | What |
+|-------|-------------------------------------------|
+| Selin | owns the count, merges pull requests |
+| Kaan | counts, reviews pull requests |
+
+## Read the history
+
+Every line of the count has a commit behind it:
+
+```
+git log --oneline count.txt
+git blame count.txt
+```
+
